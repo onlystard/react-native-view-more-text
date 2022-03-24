@@ -10,6 +10,7 @@ declare module 'react-native-view-more-text' {
     afterCollapse?: () => void
     afterExpand?: () => void
     textStyle?: StyleProp<TextStyle>;
+    allowFontScaling?: boolean;
   }
   
   export default class ViewMoreText extends React.Component<ViewMoreTextProps> {}
